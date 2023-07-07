@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF24942428EC006B000A90AA /* ear1_openess.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = CF24942328EC006B000A90AA /* ear1_openess.mlproj */; };
+		CF62D4B0289912C400446E37 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62D4AC289912C400446E37 /* InfoView.swift */; };
+		CF62D4B1289912C400446E37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62D4AD289912C400446E37 /* ContentView.swift */; };
+		CF62D4B2289912C400446E37 /* VisionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62D4AE289912C400446E37 /* VisionModel.swift */; };
+		CF62D4B3289912C400446E37 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62D4AF289912C400446E37 /* CameraPreview.swift */; };
+		CF62D4B5289919E000446E37 /* YOLOv3Tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CF62D4B4289919E000446E37 /* YOLOv3Tiny.mlmodel */; };
+		CF6CD7AF28F85AE900DD6A62 /* DetectionBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6CD7AE28F85AE900DD6A62 /* DetectionBox.swift */; };
+		CF9AD19928DCB5D00084ACD7 /* AirPodsPro_ear1_2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CF9AD19828DCB5D00084ACD7 /* AirPodsPro_ear1_2.mlmodel */; };
+		CFA45F6828899B660037CE40 /* airpodsInfoCamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA45F6728899B660037CE40 /* airpodsInfoCamApp.swift */; };
+		CFA45F6C28899B6A0037CE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA45F6B28899B6A0037CE40 /* Assets.xcassets */; };
+		CFA45F6F28899B6A0037CE40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA45F6E28899B6A0037CE40 /* Preview Assets.xcassets */; };
+		CFA45F7928899B6A0037CE40 /* airpodsInfoCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA45F7828899B6A0037CE40 /* airpodsInfoCamTests.swift */; };
+		CFA45F8328899B6A0037CE40 /* airpodsInfoCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA45F8228899B6A0037CE40 /* airpodsInfoCamUITests.swift */; };
+		CFA45F8528899B6A0037CE40 /* airpodsInfoCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA45F8428899B6A0037CE40 /* airpodsInfoCamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA45F7528899B6A0037CE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA45F5C28899B660037CE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA45F6328899B660037CE40;
+			remoteInfo = airpodsInfoCam;
+		};
+		CFA45F7F28899B6A0037CE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA45F5C28899B660037CE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA45F6328899B660037CE40;
+			remoteInfo = airpodsInfoCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF24942328EC006B000A90AA /* ear1_openess.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ear1_openess.mlproj; sourceTree = "<group>"; };
+		CF62D4AC289912C400446E37 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		CF62D4AD289912C400446E37 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF62D4AE289912C400446E37 /* VisionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionModel.swift; sourceTree = "<group>"; };
+		CF62D4AF289912C400446E37 /* CameraPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		CF62D4B4289919E000446E37 /* YOLOv3Tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3Tiny.mlmodel; sourceTree = "<group>"; };
+		CF6CD7AE28F85AE900DD6A62 /* DetectionBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectionBox.swift; sourceTree = "<group>"; };
+		CF7DA3F5289AD251001752AC /* baskvl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = baskvl.ttf; sourceTree = "<group>"; };
+		CF9AD19828DCB5D00084ACD7 /* AirPodsPro_ear1_2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AirPodsPro_ear1_2.mlmodel; sourceTree = "<group>"; };
+		CFA45F6428899B660037CE40 /* airpodsInfoCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airpodsInfoCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA45F6728899B660037CE40 /* airpodsInfoCamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airpodsInfoCamApp.swift; sourceTree = "<group>"; };
+		CFA45F6B28899B6A0037CE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA45F6E28899B6A0037CE40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFA45F7428899B6A0037CE40 /* airpodsInfoCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airpodsInfoCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA45F7828899B6A0037CE40 /* airpodsInfoCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airpodsInfoCamTests.swift; sourceTree = "<group>"; };
+		CFA45F7E28899B6A0037CE40 /* airpodsInfoCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airpodsInfoCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA45F8228899B6A0037CE40 /* airpodsInfoCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airpodsInfoCamUITests.swift; sourceTree = "<group>"; };
+		CFA45F8428899B6A0037CE40 /* airpodsInfoCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airpodsInfoCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA45F6128899B660037CE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA45F7128899B6A0037CE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA45F7B28899B6A0037CE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA45F5B28899B660037CE40 = {
+			isa = PBXGroup;
+			children = (
+				CFA45F6628899B660037CE40 /* airpodsInfoCam */,
+				CFA45F7728899B6A0037CE40 /* airpodsInfoCamTests */,
+				CFA45F8128899B6A0037CE40 /* airpodsInfoCamUITests */,
+				CFA45F6528899B660037CE40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA45F6528899B660037CE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA45F6428899B660037CE40 /* airpodsInfoCam.app */,
+				CFA45F7428899B6A0037CE40 /* airpodsInfoCamTests.xctest */,
+				CFA45F7E28899B6A0037CE40 /* airpodsInfoCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA45F6628899B660037CE40 /* airpodsInfoCam */ = {
+			isa = PBXGroup;
+			children = (
+				CFA45F6728899B660037CE40 /* airpodsInfoCamApp.swift */,
+				CF62D4AD289912C400446E37 /* ContentView.swift */,
+				CF62D4AC289912C400446E37 /* InfoView.swift */,
+				CF6CD7AE28F85AE900DD6A62 /* DetectionBox.swift */,
+				CF62D4AE289912C400446E37 /* VisionModel.swift */,
+				CF62D4AF289912C400446E37 /* CameraPreview.swift */,
+				CF9AD19828DCB5D00084ACD7 /* AirPodsPro_ear1_2.mlmodel */,
+				CF24942328EC006B000A90AA /* ear1_openess.mlproj */,
+				CF62D4B4289919E000446E37 /* YOLOv3Tiny.mlmodel */,
+				CFA45F6B28899B6A0037CE40 /* Assets.xcassets */,
+				CF7DA3F5289AD251001752AC /* baskvl.ttf */,
+				CFA45F6D28899B6A0037CE40 /* Preview Content */,
+			);
+			path = airpodsInfoCam;
+			sourceTree = "<group>";
+		};
+		CFA45F6D28899B6A0037CE40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFA45F6E28899B6A0037CE40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFA45F7728899B6A0037CE40 /* airpodsInfoCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA45F7828899B6A0037CE40 /* airpodsInfoCamTests.swift */,
+			);
+			path = airpodsInfoCamTests;
+			sourceTree = "<group>";
+		};
+		CFA45F8128899B6A0037CE40 /* airpodsInfoCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA45F8228899B6A0037CE40 /* airpodsInfoCamUITests.swift */,
+				CFA45F8428899B6A0037CE40 /* airpodsInfoCamUITestsLaunchTests.swift */,
+			);
+			path = airpodsInfoCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA45F6328899B660037CE40 /* airpodsInfoCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA45F8828899B6A0037CE40 /* Build configuration list for PBXNativeTarget "airpodsInfoCam" */;
+			buildPhases = (
+				CFA45F6028899B660037CE40 /* Sources */,
+				CFA45F6128899B660037CE40 /* Frameworks */,
+				CFA45F6228899B660037CE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = airpodsInfoCam;
+			productName = airpodsInfoCam;
+			productReference = CFA45F6428899B660037CE40 /* airpodsInfoCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA45F7328899B6A0037CE40 /* airpodsInfoCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA45F8B28899B6A0037CE40 /* Build configuration list for PBXNativeTarget "airpodsInfoCamTests" */;
+			buildPhases = (
+				CFA45F7028899B6A0037CE40 /* Sources */,
+				CFA45F7128899B6A0037CE40 /* Frameworks */,
+				CFA45F7228899B6A0037CE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA45F7628899B6A0037CE40 /* PBXTargetDependency */,
+			);
+			name = airpodsInfoCamTests;
+			productName = airpodsInfoCamTests;
+			productReference = CFA45F7428899B6A0037CE40 /* airpodsInfoCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFA45F7D28899B6A0037CE40 /* airpodsInfoCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA45F8E28899B6A0037CE40 /* Build configuration list for PBXNativeTarget "airpodsInfoCamUITests" */;
+			buildPhases = (
+				CFA45F7A28899B6A0037CE40 /* Sources */,
+				CFA45F7B28899B6A0037CE40 /* Frameworks */,
+				CFA45F7C28899B6A0037CE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA45F8028899B6A0037CE40 /* PBXTargetDependency */,
+			);
+			name = airpodsInfoCamUITests;
+			productName = airpodsInfoCamUITests;
+			productReference = CFA45F7E28899B6A0037CE40 /* airpodsInfoCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA45F5C28899B660037CE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CFA45F6328899B660037CE40 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					CFA45F7328899B6A0037CE40 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CFA45F6328899B660037CE40;
+					};
+					CFA45F7D28899B6A0037CE40 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CFA45F6328899B660037CE40;
+					};
+				};
+			};
+			buildConfigurationList = CFA45F5F28899B660037CE40 /* Build configuration list for PBXProject "airpodsInfoCam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA45F5B28899B660037CE40;
+			productRefGroup = CFA45F6528899B660037CE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA45F6328899B660037CE40 /* airpodsInfoCam */,
+				CFA45F7328899B6A0037CE40 /* airpodsInfoCamTests */,
+				CFA45F7D28899B6A0037CE40 /* airpodsInfoCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA45F6228899B660037CE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA45F6F28899B6A0037CE40 /* Preview Assets.xcassets in Resources */,
+				CF24942428EC006B000A90AA /* ear1_openess.mlproj in Resources */,
+				CFA45F6C28899B6A0037CE40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA45F7228899B6A0037CE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA45F7C28899B6A0037CE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA45F6028899B660037CE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA45F6828899B660037CE40 /* airpodsInfoCamApp.swift in Sources */,
+				CF62D4B5289919E000446E37 /* YOLOv3Tiny.mlmodel in Sources */,
+				CF62D4B0289912C400446E37 /* InfoView.swift in Sources */,
+				CF62D4B2289912C400446E37 /* VisionModel.swift in Sources */,
+				CF62D4B3289912C400446E37 /* CameraPreview.swift in Sources */,
+				CF6CD7AF28F85AE900DD6A62 /* DetectionBox.swift in Sources */,
+				CF9AD19928DCB5D00084ACD7 /* AirPodsPro_ear1_2.mlmodel in Sources */,
+				CF62D4B1289912C400446E37 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA45F7028899B6A0037CE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA45F7928899B6A0037CE40 /* airpodsInfoCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA45F7A28899B6A0037CE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA45F8328899B6A0037CE40 /* airpodsInfoCamUITests.swift in Sources */,
+				CFA45F8528899B6A0037CE40 /* airpodsInfoCamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA45F7628899B6A0037CE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA45F6328899B660037CE40 /* airpodsInfoCam */;
+			targetProxy = CFA45F7528899B6A0037CE40 /* PBXContainerItemProxy */;
+		};
+		CFA45F8028899B6A0037CE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA45F6328899B660037CE40 /* airpodsInfoCam */;
+			targetProxy = CFA45F7F28899B6A0037CE40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFA45F8628899B6A0037CE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFA45F8728899B6A0037CE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA45F8928899B6A0037CE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"airpodsInfoCam/Preview Content\"";
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heykwarb.airpodsInfoCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFA45F8A28899B6A0037CE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"airpodsInfoCam/Preview Content\"";
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heykwarb.airpodsInfoCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFA45F8C28899B6A0037CE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heykwarb.airpodsInfoCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airpodsInfoCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/airpodsInfoCam";
+			};
+			name = Debug;
+		};
+		CFA45F8D28899B6A0037CE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heykwarb.airpodsInfoCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airpodsInfoCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/airpodsInfoCam";
+			};
+			name = Release;
+		};
+		CFA45F8F28899B6A0037CE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heykwarb.airpodsInfoCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = airpodsInfoCam;
+			};
+			name = Debug;
+		};
+		CFA45F9028899B6A0037CE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heykwarb.airpodsInfoCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = airpodsInfoCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA45F5F28899B660037CE40 /* Build configuration list for PBXProject "airpodsInfoCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA45F8628899B6A0037CE40 /* Debug */,
+				CFA45F8728899B6A0037CE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA45F8828899B6A0037CE40 /* Build configuration list for PBXNativeTarget "airpodsInfoCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA45F8928899B6A0037CE40 /* Debug */,
+				CFA45F8A28899B6A0037CE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA45F8B28899B6A0037CE40 /* Build configuration list for PBXNativeTarget "airpodsInfoCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA45F8C28899B6A0037CE40 /* Debug */,
+				CFA45F8D28899B6A0037CE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA45F8E28899B6A0037CE40 /* Build configuration list for PBXNativeTarget "airpodsInfoCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA45F8F28899B6A0037CE40 /* Debug */,
+				CFA45F9028899B6A0037CE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA45F5C28899B660037CE40 /* Project object */;
+}
